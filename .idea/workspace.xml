@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,30 +33,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Qn6e2NCqVj233XTVZ3RW2TzDBN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build techjobs-oo-java-graded-17.executor": "Run",
-    "Gradle.JobTest.executor": "Run",
-    "Gradle.TestTaskThree.testSecondConstructorInitializesProperties.executor": "Run",
-    "Gradle.Tests in 'org.launchcode.techjobs.oo'.executor": "Run",
-    "JUnit.JobTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build techjobs-oo-java-graded-17.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testToStringStartsAndEndsWithNewLine.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testToStringStartsAndEndsWithNewline.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestTaskThree.testSecondConstructorInitializesProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'org.launchcode.techjobs.oo'.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JobTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.Tests in 'org.launchcode.techjobs.oo'">
     <configuration name="JobTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -70,6 +74,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.launchcode.techjobs.oo.JobTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobTest.testToStringStartsAndEndsWithNewLine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringStartsAndEndsWithNewLine&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobTest.testToStringStartsAndEndsWithNewline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringStartsAndEndsWithNewline&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -141,6 +193,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
+      <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewline" />
       <item itemvalue="Gradle.JobTest" />
       <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
       <item itemvalue="Gradle.TestTaskThree.testSecondConstructorInitializesProperties" />
@@ -149,6 +203,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
+        <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
+        <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewline" />
         <item itemvalue="Gradle.JobTest" />
         <item itemvalue="Gradle.TestTaskThree.testSecondConstructorInitializesProperties" />
       </list>

@@ -36,5 +36,42 @@ public class JobTest {
         Job job2 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         assertFalse(job1.equals(job2));
     }
+
+    @Test
+    public void testToStringStartsAndEndsWithNewLine(){
+Job testNewLineJob = new Job("testing",new Employer("testing"),new Location("testing"),new PositionType("testing"),new CoreCompetency("testing"));
+   assertEquals(testNewLineJob.toString(),System.lineSeparator() + "ID: 1" +System.lineSeparator() +
+           "Name: testing" + System.lineSeparator() +
+           "Employer: testing" + System.lineSeparator() +
+           "Location: testing" + System.lineSeparator() +
+           "Position Type: testing" + System.lineSeparator() +
+           "Core Competency: testing" + System.lineSeparator());
+
+
+    }
+    @Test
+    public void testToStringContainsCorrectLabelsAndData(){
+        Job job = new Job("Software Developer", new Employer("ABC Corp"), new Location("New York"), new PositionType("Full Stack"), new CoreCompetency("Java"));
+
+        assertTrue(job.toString().contains("ID:"));
+        assertTrue(job.toString().contains("Name:"));
+        assertTrue(job.toString().contains("Employer:"));
+        assertTrue(job.toString().contains("Location:"));
+        assertTrue(job.toString().contains("Position Type:"));
+        assertTrue(job.toString().contains("Core Competency:"));
+    }
+    @Test
+    public void testToStringHandlesEmptyField(){
+        Job job = new Job("", new Employer(""), new Location(""), new PositionType(""), new CoreCompetency(""));
+
+        assertEquals(job.toString(),System.lineSeparator() + "ID: 1" + System.lineSeparator() +
+        "Name: Data not available" + System.lineSeparator() +
+        "Employer: Data not available" + System.lineSeparator() +
+        "Location: Data not available" + System.lineSeparator() +
+        "Position Type: Data not available" + System.lineSeparator() +
+        "Core Competency: Data not available" + System.lineSeparator());
+
+    }
+
 }
 

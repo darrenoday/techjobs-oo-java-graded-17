@@ -84,7 +84,19 @@ public class Job {
     public int hashCode() {
         return Objects.hash(getId());
     }
-// TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
+
+    @Override
+    public String toString() {
+        return System.lineSeparator() +
+                "ID: " + (id != 0 ? id : "Data not available") + System.lineSeparator() +
+                "Name: " + (!name.equals("") ? name : "Data not available") + System.lineSeparator() +
+                "Employer: " + (!employer.getValue().equals("") ? employer : "Data not available") + System.lineSeparator() +
+                "Location: " + (!location.getValue().equals("") ? location : "Data not available") + System.lineSeparator() +
+                "Position Type: " + (!positionType.getValue().equals("")? positionType : "Data not available") + System.lineSeparator() +
+                "Core Competency: " + (!coreCompetency.getValue().equals("")? coreCompetency : "Data not available") + System.lineSeparator();
+    }
+
+    // TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
     //  other five fields. The second constructor should also call the first in order to initialize
     //  the 'id' field.
 
