@@ -10,7 +10,7 @@ public class JobTest {
     @Test
     public void testToStringStartsAndEndsWithNewLine(){
         Job testNewLineJob = new Job("testing",new Employer("testing"),new Location("testing"),new PositionType("testing"),new CoreCompetency("testing"));
-        assertEquals(testNewLineJob.toString(),System.lineSeparator() + "ID: 3" +System.lineSeparator() +
+        assertEquals(testNewLineJob.toString(),System.lineSeparator() + "ID: 5" +System.lineSeparator() +
                 "Name: testing" + System.lineSeparator() +
                 "Employer: testing" + System.lineSeparator() +
                 "Location: testing" + System.lineSeparator() +
